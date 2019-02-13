@@ -8,6 +8,7 @@
     height: 300px;
     background-color: lightgray;
     border: 3px solid black;
+    z-index: 1;
 }
 .build2 {
     position: absolute;
@@ -17,6 +18,7 @@
     height: 300px;
     background-color: lightgray;
     border: 3px solid black;
+    z-index: 2;
 }
 .roof-middle {
     position: absolute;
@@ -25,6 +27,7 @@
     width: 650px;
     height: 200px;
     background-color: brown;
+    z-index: 3;
 }
 .roof-right { 
     position: absolute;
@@ -32,6 +35,7 @@
     top: -100px;
     border: 200px solid transparent;
     border-right: 200px solid white;
+    z-index: 4;
 }
 .roof-left-1 { 
     position: absolute;
@@ -39,6 +43,7 @@
     top: -100px;
     border: 200px solid transparent;
     border-bottom: 200px solid brown;
+    z-index: 5;
 }
 .roof-left-2 { 
     position: absolute;
@@ -46,6 +51,7 @@
     top: 100px;
     border: 5px solid transparent;
     border-top: 5px solid brown;
+    z-index: 6;
 }
 .roof-left { 
     position: absolute;
@@ -53,6 +59,7 @@
     top: -100px;
     border: 200px solid transparent;
     border-bottom: 200px solid lightgray;
+    z-index: 7;
 }
 .window-roof {
     position: absolute;
@@ -60,6 +67,7 @@
     top: 120px;
     border: 70px solid transparent;
     border-bottom: 70px solid rgb(95, 10, 10);
+    z-index: 8;
 }
 .window-roof-glass {
     position: absolute;
@@ -67,6 +75,7 @@
     top: 135px;
     border: 60px solid transparent;
     border-bottom: 60px solid rgb(82, 198, 252);
+    z-index: 9;
 }
 .flue {
     position: absolute;
@@ -76,18 +85,21 @@
     height: 120px;
     background-color: rgb(95, 10, 10);
     border: 1px solid black;
+    z-index: 10;
 }
 .door img{
     position: absolute;
     left: 250px;
     top: 385px;
     width: 100px;
+    z-index: 11;
 }
 .window img{
     position: absolute;
     left: 600px;
     top: 350px;
     width: 180px;
+    z-index: 12;
 }
 .grass {
     position: absolute;
@@ -96,4 +108,5 @@
     width: 900px;
     height: 10px;
     background-color: green;
+    z-index: 13;
 }
